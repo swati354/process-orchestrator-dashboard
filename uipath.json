@@ -1,0 +1,8 @@
+{
+  "clientId": "b4c6b8e7-6abf-4583-b363-1d98e03f139c",
+  "scope": "OR.Administration.Read OR.Assets.Read OR.Execution.Read OR.Folders OR.Jobs OR.Queues.Read OR.Tasks PIMS Traces.Api DataFabric.Data.Read DataFabric.Data.Write DataFabric.Schema.Read ConversationalAgents",
+  "orgName": "popoc",
+  "tenantName": "adetenant",
+  "baseUrl": "https://alpha.api.uipath.com",
+  "redirectUri": "http://localhost:3000"
+}
