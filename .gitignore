@@ -1,0 +1,6 @@
+
+# Bootstrap marker
+.bootstrap-complete
+
+# UiPath internal files
+.uipath/*

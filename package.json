@@ -1,0 +1,37 @@
+{
+  "name": "process-orchestrator-ssabwwidmz8xapymaigyr",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port ${PORT:-3000}",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port ${PORT:-4173}",
+    "lint": "eslint --cache -f json --quiet .",
+    "prepare": "bun .bootstrap.js || true"
+  },
+  "dependencies": {
+    "@uipath/uipath-typescript": "latest",
+    "path-browserify": "^1.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@tailwindcss/vite": "^4.0.0",
+    "@uipath/coded-apps-dev": "^1.0.0-beta.1",
+    "@types/node": "^22.15.3",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.31.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "5.8",
+    "typescript-eslint": "^8.26.1",
+    "vite": "^6.3.1"
+  }
+}
